@@ -21,9 +21,6 @@ export const GlobalStyles = css`
 
     font-style: normal;
 
-    background-image: url('https://cdn.pixabay.com/photo/2013/07/13/12/34/book-159880_1280.png');
-    background-size: cover; /* Растягивает изображение на всю площадь фона */
-    background-repeat: no-repeat;
     color: yellow;
 
     position: relative;
@@ -35,7 +32,7 @@ export const GlobalStyles = css`
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.1);
       z-index: 1;
       pointer-events: none;
     }
